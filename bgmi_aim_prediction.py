@@ -11,9 +11,7 @@ Original file is located at
 
 #from google.colab import files
 #uploaded = files.upload()
-uploaded_file =
-st.file_uploader("upload video",
-                 type=["mp4"]
+uploaded_file = st.file_uploader("Upload Video", type=["mp4"])
 import os
 import cv2
 
