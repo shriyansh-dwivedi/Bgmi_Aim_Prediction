@@ -141,5 +141,5 @@ while True:
 
 cap.release()
 out.release() # Release the VideoWriter object as well
-cv2.destroyAllWindows()
+pass
 
