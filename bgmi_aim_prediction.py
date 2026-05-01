@@ -13,7 +13,7 @@ Original file is located at
 #uploaded = files.upload()
 uploaded_file =
 st.file_uploader("upload video",
-                 type=["mp4]
+                 type=["mp4"]
 import os
 import cv2
 
