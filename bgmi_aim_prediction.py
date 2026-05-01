@@ -9,9 +9,11 @@ Original file is located at
 
 # pip install opencv-python ultralytics numpy pandas matplotlib streamlit
 
-from google.colab import files
-uploaded = files.upload()
-
+#from google.colab import files
+#uploaded = files.upload()
+uploaded_file =
+st.file_uploader("upload video",
+                 type=["mp4]
 import os
 import cv2
 
