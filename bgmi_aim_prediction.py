@@ -44,7 +44,9 @@ video.release()
 import cv2
 import math
 from ultralytics import YOLO
-from google.colab.patches import cv2_imshow
+def cv2_imshow(img):
+    import cv2, matplotlib.pyplot as plt
+    plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)); plt.axis('off'); plt.show()
 
 # Load model
 model = YOLO("yolov8n.pt")
