@@ -133,11 +133,11 @@ while True:
     out.write(frame)
 
     # Show frame (optional, if you want to see the output in real-time in Colab)
-    cv2_imshow(frame)
+    #cv2_imshow(frame)
 
     # Exit with Q
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+    #if cv2.waitKey(1) & 0xFF == ord('q'):
+        #break
 
 cap.release()
 out.release() # Release the VideoWriter object as well
